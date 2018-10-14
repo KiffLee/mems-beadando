@@ -1,3 +1,11 @@
+# Raspberry Pi LCD Info
+#
+# Ez a script egy I2C LCD-re kiírja a Pi IP címét és a CPU hőmérsékletét.
+#
+# Vezió 0.3
+# Készítette: Szilvási Péter
+# 2018.10.13
+
 import os
 import I2C_LCD_driver
 import time
